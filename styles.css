@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f3f3f3;
+}
+
+.container {
+    text-align: center;
+    background-color: #0033a0;
+    color: white;
+    padding: 40px;
+    border-radius: 10px;
+    width: 600px;
+    margin: 50px auto;
+    position: relative;
+}
+
+.logo img {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.message {
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+.profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid white;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.title {
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+.drones {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+}
+
+.drone-left {
+    position: absolute;
+    left: 10px;
+    width: 50px;
+}
+
+.drone-right {
+    position: absolute;
+    right: 10px;
+    width: 50px;
+}
